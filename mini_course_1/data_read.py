@@ -8,7 +8,7 @@ symbols = ['IBM','GOOG','SPY','BBY','T','MSFT']
 
 for symbol in symbols:
 	df = web.DataReader(symbol, data_source='yahoo')
-	df.to_csv("data/{}.csv".format(symbol))
+	df.to_csv("../data/{}.csv".format(symbol))
 
 #AAPL = web.DataReader('AAPL', data_source='yahoo')
 #type(AAPL)

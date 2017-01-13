@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def test_run():
-    df = pd.read_csv("data/AAPL.csv")
+    df = pd.read_csv("../data/AAPL.csv")
     df[['High','Close']].plot()
     plt.show()
 
